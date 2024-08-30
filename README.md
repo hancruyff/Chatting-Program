@@ -1,4 +1,4 @@
-## 목차
+## 🗉목차
 [1. 개요](#1-개요)
 
 [2. 주요 기능](#2-주요-기능)
@@ -7,12 +7,12 @@
 
 [4. 개선 사항](#4-개선-사항)
 
-## 1. 개요
+## 1. 💬개요
 채팅 프로그램 개발
 
 <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"> <img src="https://img.shields.io/badge/Tcp&#47;Ip-orange?style=plastic&logo=tcp&#47ip&logoColor=white"/> <img src="https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"> <img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
 
-## 2. 주요 기능
+## 2. 🔧주요 기능
 <img src="https://github.com/user-attachments/assets/a6559926-8813-42d0-8857-ef9cfa36a1eb" width="600" height="240"/>
 
 로그인 기능
@@ -23,7 +23,7 @@
 
 실시간 채팅 기능
 
-## 3. 구현
+## 3. ⌨️구현
 
 사용자가 많아지더라도 중단 없이 채팅이 계속 가능하도록 하기 위해 멀티 스레드 사용
 <details>
@@ -87,6 +87,6 @@ class ChatThread extends Thread {
 </details>
 
 
-## 4. 개선 사항
+## 4. 👨‍🔧개선 사항
 
 회원 정보를 암호화하여 관리 해야할 필요가 있음
