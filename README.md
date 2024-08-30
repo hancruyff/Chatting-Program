@@ -44,7 +44,9 @@ public void run() {
     System.out.println("[multiChatClient]" + thread.getName() + "�����"); 
 }
 ```
+클라이언트
 
+서버로부터 메시지를 읽고, 이를 화면에 출력
 ```
 class ChatThread extends Thread {		
     String msg;
@@ -71,8 +73,12 @@ class ChatThread extends Thread {
         }
     }
 }
-
 ```
+서버
+
+서버는 클라이언트의 연결을 수용하고, 각 클라이언트에 대해 ChatThread라는 스레드를 생성
+
+클라이언트로부터 메시지를 읽고, 이를 다른 클라이언트에게 전송
 </details>
 
 
