@@ -13,13 +13,14 @@
 <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"> <img src="https://img.shields.io/badge/Tcp&#47;Ip-orange?style=plastic&logo=tcp&#47ip&logoColor=white"/> <img src="https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"> <img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
 
 ## 2. 주요 기능
-<img src="https://github.com/user-attachments/assets/0dd93571-a4d7-4131-a42d-7b46e99a71cf" width="300" height="300"/>
+<img src="https://github.com/user-attachments/assets/a6559926-8813-42d0-8857-ef9cfa36a1eb" width="600" height="240"/>
 
 로그인 기능
 
 데이터베이스에 존재하는 ID/PW와 일치할 경우 로그인 성공
 
 <img src="https://github.com/user-attachments/assets/cd8ce812-08e7-4a83-afad-a5565bfecf35" width="300" height="200"/>
+
 실시간 채팅 기능
 
 ## 3. 구현
