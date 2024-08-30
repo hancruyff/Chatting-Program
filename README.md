@@ -10,8 +10,7 @@
 ## 1. 개요
 채팅 프로그램 개발
 
-<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tcp&#47;Ip-orange?style=plastic&logo=tcp&#47ip&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"> <img src="https://img.shields.io/badge/Tcp&#47;Ip-orange?style=plastic&logo=tcp&#47ip&logoColor=white"/> <img src="https://img.shields.io/badge/androidstudio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white"> <img src="https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
 
 ## 2. 주요 기능
 <img src="https://github.com/user-attachments/assets/0dd93571-a4d7-4131-a42d-7b46e99a71cf" width="300" height="300"/>
@@ -48,7 +47,6 @@ public void run() {
 }
 ```
 클라이언트
-
 서버로부터 메시지를 읽고, 이를 화면에 출력
 ```
 class ChatThread extends Thread {		
@@ -78,9 +76,7 @@ class ChatThread extends Thread {
 }
 ```
 서버
-
 서버는 클라이언트의 연결을 수용하고, 각 클라이언트에 대해 ChatThread라는 스레드를 생성
-
 클라이언트로부터 메시지를 읽고, 이를 다른 클라이언트에게 전송
 </details>
 
