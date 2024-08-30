@@ -10,6 +10,9 @@
 ## 1. 개요
 채팅 프로그램 개발
 
+<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tcp&#47;Ip-orange?style=plastic&logo=tcp&#47ip&logoColor=white"/>
+
 ## 2. 주요 기능
 <img src="https://github.com/user-attachments/assets/0dd93571-a4d7-4131-a42d-7b46e99a71cf" width="300" height="300"/>
 
