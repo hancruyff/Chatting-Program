@@ -76,6 +76,7 @@ class ChatThread extends Thread {
         }
     }
 }
+```
 ### 3.2 클라이언트 메시지 처리  
 클라이언트는 서버로부터 메시지를 수신하고 UI에 출력  
 
@@ -91,14 +92,13 @@ public void run() {
         }
     }
 }
+```
 3.3 로그인 인증 (SQLite 활용)
 사용자의 ID/PW 정보를 SQLite에 저장
 
 로그인 시 입력값과 데이터베이스 값을 비교하여 인증
 
-java
-복사
-편집
+```java
 public boolean authenticateUser(String username, String password) {
     String sql = "SELECT * FROM users WHERE username=? AND password=?";
     try (Connection conn = this.connect();
