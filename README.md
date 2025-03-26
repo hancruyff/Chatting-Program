@@ -138,6 +138,8 @@ public boolean authenticateUser(String username, String password) {
 
 AES-256 기반 메시지 암호화를 적용하여 보안 강화
 
+---
+
 ### 5. 🏆 프로젝트 기여도
 ✔️ 소켓 프로그래밍을 이용한 서버-클라이언트 통신 설계 및 구현
 
